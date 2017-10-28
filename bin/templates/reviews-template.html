@@ -32,7 +32,7 @@
 						th:text="${review.dish}" /></a>
 
 
-				<img id="image" th:src="${review.imageUrl}" />
+				<a th:href="@{'/review?id=' + ${review.id}}"><img id="image" th:src="${review.imageUrl}" /></a>
 
 
 
