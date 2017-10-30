@@ -29,15 +29,19 @@
 			<div class="individualreview" th:each="review: ${modelReviews}">
 
 				<a th:href="@{'/review?id=' + ${review.id}}"><p id="dish"
+<<<<<<< HEAD
 						th:text="${review.dish}" /></a>
 
 
 				<a th:href="@{'/review?id=' + ${review.id}}"><img id="image" th:src="${review.imageUrl}" /></a>
+=======
+						th:text="${review.dish}" /></a> <img id="image"
+					th:src="${review.imageUrl}" />
+>>>>>>> upstream/master
 
 
 
 			</div>
-
 
 		</section>
 
