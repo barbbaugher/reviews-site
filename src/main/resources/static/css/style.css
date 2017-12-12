@@ -9,7 +9,7 @@
 	display: grid;
 	grid-template-rows: 20% 20% 20% 20% 20%;
 }
-.EachReview {
+.each-review {
 	display: grid;
 	grid-template-rows: 20% 80%;
 	grid-template-columns: 25% 25% 25% 25%;
@@ -45,17 +45,17 @@ header {
 	grid-column: 1;
 	grid-row: 1;
 }
-.EachReview #dish {
+.each-review #dish {
 	text-align: right;
 	grid-column: 2;
 	grid-row: 1;
 
 }
-.EachReview #image {
+.each-review #image {
 	grid-row: 1;
 	grid-column: 1;
 }
-.EachReview #review {
+.each-review #review {
 	grid-row: 2;
 	grid-column: 1/6;
 	
@@ -72,7 +72,7 @@ header {
 	grid-row: 1;
 }
 
-.EveryReview #rating {
+.each-review #rating {
 	grid-column: 4;
 	grid-row: 1;
 	text-align: right;
